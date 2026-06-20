@@ -1,0 +1,40 @@
+{
+  "name": "scaffold-thinking",
+  "version": "0.1.0",
+  "description": "Four-stage thinking layer (Frame → Clarify → Diverge → Decide) that turns a vague engineering problem into genuinely different solution options + a Markdown decision brief. Provider-agnostic.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "scaffold-thinking": "dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "prompts-md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "eval": "npx tsx examples/eval.ts"
+  },
+  "keywords": [
+    "prompt-engineering",
+    "llm",
+    "decision-making",
+    "adr",
+    "typescript",
+    "cli",
+    "anthropic",
+    "openai"
+  ],
+  "author": "Aditya Singh",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.22.0",
+    "typescript": "^5"
+  }
+}
