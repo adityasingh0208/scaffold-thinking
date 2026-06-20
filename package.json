@@ -26,6 +26,10 @@
     "anthropic",
     "openai"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityasingh0208/scaffold-thinking"
+  },
   "author": "Aditya Singh",
   "license": "MIT",
   "dependencies": {
